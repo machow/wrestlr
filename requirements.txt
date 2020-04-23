@@ -8,7 +8,7 @@ bleach==3.1.4
 decorator==4.4.2
 defusedxml==0.6.0
 entrypoints==0.3
--e git+git@github.com:machow/hoof.git@fff1dc7e157d201b0017e6af608c4a4f2f2ca0b8#egg=hoof
+-e https://github.com/machow/hoof/archive/wrestlr-compat.zip
 importlib-metadata==1.6.0
 ipykernel==5.2.1
 ipython==7.13.0
@@ -54,7 +54,7 @@ pyzmq==19.0.0
 qtconsole==4.7.3
 QtPy==1.9.0
 Send2Trash==1.5.0
--e git+git@github.com:machow/siuba.git@42872e5cb4068e6bd1be53d04619ea2ec5bab186#egg=siuba
+-e https://github.com/machow/siuba/archive/feat-wrestlr-compat.zip
 six==1.14.0
 SQLAlchemy==1.3.16
 terminado==0.8.3
