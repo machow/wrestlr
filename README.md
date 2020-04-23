@@ -134,16 +134,25 @@ mtcars %>%
 
 
 
-    <ggplot: (-9223372036554466791)>
+    <ggplot: (308384555)>
 
 
 
+<!-- #region -->
 ## Learning more
 
 See these example notebooks
 
-* [gallery.ipynb](docs/gallery.ipynb)
-* [cell_magic.ipynb](docs/cell_magic.ipynb)
-* [debugging.ipynb](docs/debugging.ipynb)
-* [translate-tidytuesday.ipynb](docs/translate-tidytuesday.ipynb)
 
+| name | binder | description |
+| ---- | ------ | ----------- |
+| [gallery](docs/gallery.ipynb) | [![](https://mybinder.org/badge_logo.svg)][b-gallery] | Walk through rules wrestlr uses during conversion |
+| [cell_magic](docs/cell_magic.ipynb) | [![](https://mybinder.org/badge_logo.svg)][b-cell-magic] | Get to know the %%wrestlr cell magic |
+| [debugging.ipynb](docs/debugging.ipynb) | [![](https://mybinder.org/badge_logo.svg)][b-debugging] | Debugging the parser, AST, or siuba conversion | 
+| [translate-tidytuesday](docs/translate-tidytuesday.ipynb) | [![](https://mybinder.org/badge_logo.svg)][b-translate-tidytuesday] | Translating and executing the first half of a tidy tuesday R analysis |
+
+[b-gallery]: https://mybinder.org/v2/gh/machow/wrestlr/master?filepath=docs/gallery.ipynb
+[b-cell-magic]: https://mybinder.org/v2/gh/machow/wrestlr/master?filepath=docs/cell_magic.ipynb
+[b-debugging]: https://mybinder.org/v2/gh/machow/wrestlr/master?filepath=docs/debugging.ipynb
+[b-translate-tidytuesday]: https://mybinder.org/v2/gh/machow/wrestlr/master?filepath=docs/translate-tidytuesday.ipynb
+<!-- #endregion -->
