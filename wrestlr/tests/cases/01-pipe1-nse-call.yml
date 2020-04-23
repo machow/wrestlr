@@ -1,0 +1,6 @@
+src: |
+    a %>% mutate(a = b)
+dst: |
+    dat >> mutate(a = _.b)
+
+

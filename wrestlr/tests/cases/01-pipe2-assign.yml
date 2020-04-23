@@ -1,0 +1,6 @@
+src: |
+    df <- mtcars %>% mutate(res = hp + 1) %>% filter(hp > 50)
+dst: |
+    df = (mtcars >> mutate(res = (_.hp + 1)) >> filter(_.hp > 50))
+
+

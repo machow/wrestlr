@@ -1,0 +1,6 @@
+src: |
+    dat %>% f(a = b)
+dst: |
+    dat >> f(a = b)
+
+
