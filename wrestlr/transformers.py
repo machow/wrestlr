@@ -104,7 +104,7 @@ class TransformExpr(NodeTransformer):
             'select', 'mutate', 'filter', 'arrange', 'summarize', '..NSE..',
             'group_by', 'ungroup', 'nest', 'unnest', 'count', "top_n",
             ]
-    method_calls = {"NSE_method": "NSE_method"}
+    method_calls = {"NSE_method": "NSE_method", "mean": "mean"}
 
     def __init__(self, nse_verbs = None, method_calls = None):
         self.in_nse_verb = False
