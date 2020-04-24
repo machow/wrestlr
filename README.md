@@ -9,6 +9,8 @@ wrestlr uses python to do a two step dance:
 * parse R code that uses [dplyr](https://github.com/tidyverse/dplyr).
 * spit out python code that runs using the dplyr port [siuba](http://github.com/machow/siuba).
 
+> ⚠️ This library is highly experimental. I am actively using it to understand how far I can push translation. The interface and behaviors may change.
+
 ## Basic use
 
 
@@ -134,7 +136,7 @@ mtcars %>%
 
 
 
-    <ggplot: (308384555)>
+    <ggplot: (-9223372036562628583)>
 
 
 
